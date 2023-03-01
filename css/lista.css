@@ -1,0 +1,57 @@
+.body-lista{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("/img/background3.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+}
+table{
+    width: 100%;
+    color: white;
+    margin-top: 0.4em;
+    padding: 1em;
+}
+.tb-1{
+    margin-top: 5em;
+}
+.addbtn{
+    border-radius: 30px;
+    background-color: rgba(109, 49, 0, 0.742);
+    padding: 1em;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.title-list-other{
+    padding: 0.5em; 
+    font-size: 25px; 
+    color: black; 
+    font-weight: bold;
+}
+@media (max-width:500px) {
+    .body-lista{
+        background-image: url("/img/background2.webp");
+        
+    }
+    .Logo-menu{
+        width: 35%;
+    }
+    
+}
+
+.formAdd{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #5d310fcf;
+    padding: 1em;
+}
+.btnformadd{
+    padding: 0.3em 1em 0.3em 1em;
+    border: none;
+    color: black;
+    background: white;
+    padding: 0.3em;
+}
